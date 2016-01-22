@@ -1,0 +1,26 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   '--registry=https://registry.npm.taobao.org',
+1 verbose cli   '--cache=/Users/parker/.npm/.cache/cnpm',
+1 verbose cli   '--disturl=https://npm.taobao.org/dist',
+1 verbose cli   '--userconfig=/Users/parker/.cnpmrc',
+1 verbose cli   'install' ]
+2 info using npm@2.9.1
+3 info using node@v0.12.3
+4 verbose readDependencies loading dependencies from /Users/parker/hosapp/package.json
+5 error install Couldn't read dependencies
+6 verbose stack Error: ENOENT, open '/Users/parker/hosapp/package.json'
+6 verbose stack     at Error (native)
+7 verbose cwd /Users/parker/hosapp
+8 error Darwin 14.3.0
+9 error argv "node" "/usr/local/bin/npm" "--registry=https://registry.npm.taobao.org" "--cache=/Users/parker/.npm/.cache/cnpm" "--disturl=https://npm.taobao.org/dist" "--userconfig=/Users/parker/.cnpmrc" "install"
+10 error node v0.12.3
+11 error npm  v2.9.1
+12 error path /Users/parker/hosapp/package.json
+13 error code ENOPACKAGEJSON
+14 error errno -2
+15 error package.json ENOENT, open '/Users/parker/hosapp/package.json'
+15 error package.json This is most likely not a problem with npm itself.
+15 error package.json npm can't find a package.json file in your current directory.
+16 verbose exit [ -2, true ]
